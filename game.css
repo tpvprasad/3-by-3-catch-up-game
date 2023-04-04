@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    background-color: #bbb;
+    
+}
+.container > div {
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    color: maroon;
+    border: 2px solid black;
+}
+
+#g1 {
+    background-color: red;
+}
+#g5 {
+    background-color: green;
+}
+
+#g9 {
+    background-color: yellow;
+}
+
+#g2,#g3,#g4,#g6,#g7,#g8 {
+    background-color: lightblue;
+}
+
+
+
+/* .buttons {
+    margin: auto;
+    text-align: center;
+}
+
+#up , #left , #right , #down {
+    width: 5vw;
+    height: 2vw;
+    color: maroon;
+    font-weight: bold;
+    background-color: #bbb;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+#up:hover , #left:hover , #right:hover , #down:hover {
+    cursor: pointer;
+    background-color: blue;
+} */
